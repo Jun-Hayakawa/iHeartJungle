@@ -20,6 +20,8 @@
         "-static-libgcc",
         "-static-libstdc++",
 
+        "C:/msys64/ucrt64/lib/libwinpthread.a",
+
         "-o",
         "${workspaceFolder}/build/app.exe"
       ],

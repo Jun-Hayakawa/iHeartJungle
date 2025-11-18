@@ -17,6 +17,9 @@
         "-L${workspaceFolder}/include/PDCurses-3.9/wincon",
         "-l:pdcurses.a",
 
+        "-static-libgcc",
+        "-static-libstdc++",
+
         "-o",
         "${workspaceFolder}/build/app.exe"
       ],
